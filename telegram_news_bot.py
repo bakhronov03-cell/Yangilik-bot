@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 API_ID = 25212165
 API_HASH = "9ae84dd5ba1a96779b982d354b7d4ded"
 
-MANBA_KANALLAR = ["@uzbekistan_news", "@kunuz"]
+MANBA_KANALLAR = ["@gazetauz_ozb", "@kunuz"]
 SIZNING_KANALINGIZ = "@bakhronov24"
 SILKA_MATNI = "@👉 Telegram | Instagram | You"
 
@@ -28,5 +28,8 @@ async def yangilik_yuborish(client, message):
             await client.send_message(SIZNING_KANALINGIZ, matn)
     except Exception as e:
         print(f"Xato: {e}")
-
+import asyncio
+asyncio.set_event_loop(asyncio.new_event_loop())
 app.run()
+
+
