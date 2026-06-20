@@ -17,7 +17,7 @@ async def yangilik_yuborish(client, message):
         matn = message.text or message.caption or ""
         matn = re.sub(r'@\w+', '', matn).strip()
         if matn:
-            matn += f"\n\n{SILKA_MATNI}"
+            matn += f"\n\n{@bakhronov24}"
         if message.photo:
             foto = await client.download_media(message.photo, in_memory=True)
             await client.send_photo(SIZNING_KANALINGIZ, foto, caption=matn or SILKA_MATNI)
