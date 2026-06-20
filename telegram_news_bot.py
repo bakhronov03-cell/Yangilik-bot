@@ -12,7 +12,7 @@ MANBA_KANALLAR = [
     "@uzbekistan_news","@kunuz"
 ]
 
-SIZNING_KANALINGIZ = "@soniyauzofficial"
+SIZNING_KANALINGIZ = "@bakhronov24"
 SILKA_MATNI = "@👉 Telegram | Instagram | You tube"
 LOGO_FAYL = "logo.png"
 BURCHAK_KENGLIK = 200
